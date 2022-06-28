@@ -1,0 +1,296 @@
+
+
+/*** 
+=============================================
+    Faq Style1 Area Css
+=============================================
+***/
+.faq-style1-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 0px 0 0px;
+}
+.faq-style1-area.pdtop150{
+    padding-top: 150px;
+}
+
+.faq-style1__content {
+    position: relative;
+    display: block;
+    padding-bottom: 145px;
+}
+.faq-style1__content .sec-title{
+    padding-bottom: 23px;
+}
+.faq-style1__content .inner-content{
+    position: relative;
+    display: block;
+}
+.faq-style1__content .inner-content .text{
+    position: relative;
+    display: block;
+    padding-bottom: 25px;
+}
+  
+.accordion-box{
+     position: relative;
+     display: block;
+}
+.accordion-box .block{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: all 500ms ease;
+}
+.accordion-box .block:last-child{
+    margin-bottom: 0px;
+}
+.accordion-box .block .acc-content.current{
+    display:block;  
+}
+.accordion-box .block .acc-btn {
+    position: relative;
+    display: block;
+    background: #fff;
+    padding: 16px 70px 16px 0px;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+.accordion-box .block .acc-btn.active{
+   
+}
+
+.accordion-box .block .acc-btn h3{
+    color: #252628;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    transition: all 500ms ease;
+}
+.accordion-box .block .acc-btn.active h3{
+    color: var(--thm-base);
+}
+.accordion-box .block .acc-btn h3 b {
+    position: relative;
+    display: inline-block;
+    color: var(--thm-base);
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+  
+.accordion-box .block .acc-btn .icon-outer{
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(var(--thm-base-rgb), .10);
+    border-radius: 50%;
+    color: var(--thm-base);
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    transform: translateY(-50%);
+    transition: all 500ms ease;
+    z-index: 1;
+}
+.accordion-box .block .acc-btn.active .icon-outer{
+    color: #ffffff;
+    background: var(--thm-base);
+}
+.accordion-box .block .acc-btn.active .icon-outer i:before {
+    position: relative;
+    font-size: 16px;
+    font-family: flaticon !important;
+    font-weight: 400;
+    margin: 0px;
+    content: "\f113";
+}
+
+.accordion-box .block .acc-content {
+    position: relative;
+    display: none;
+    padding-top: 10px;
+    padding-left: 45px;
+    padding-right: 120px;
+}
+.accordion-box .block .acc-content p{
+    margin: 0;
+}
+
+
+
+.faq-style1__image {
+    position: relative;
+    display: block;
+    margin-top: -23px;
+    z-index: 1;
+}
+.faq-style1__image .inner{
+    position: relative;
+    display: block;
+}
+.faq-style1__image .inner img {
+    max-width: none;
+    float: left;
+}
+
+.faq-style1__image .shape1 {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+.faq-style1__image .shape2 {
+    position: absolute;
+    right: -150px;
+    bottom: -50px;
+}
+
+
+
+.faq-style1__image--style2 {
+    margin-top: 0;
+}
+.faq-style1__image--style2 .inner {
+    right: -130px;
+}
+
+
+
+
+
+/*** 
+=============================================
+    Faq Style1 Faq Page Css
+=============================================
+***/
+.faq-style1---faq-page{
+    position: relative;
+    display: block;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.faq-style1---faq-page .faq-style1__content {
+    padding-bottom: 0;
+    padding-right: 70px;
+}
+.faq-style1---faq-page .faq-style1__content .sec-title {
+    padding-bottom: 40px;
+}
+
+
+.faq-form-box {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    padding: 40px 39px 39px;
+    border-radius: 10px;
+}
+.faq-form-box .top-title{
+    position: relative;
+    display: block;
+    margin-top: -6px;
+    padding-bottom: 33px;
+}
+.faq-form-box .top-title h3{
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.faq-form-box form{
+    position: relative;
+    display: block;
+}
+.faq-form-box form .input-box {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.faq-form-box form input[type="text"],
+.faq-form-box form input[type="email"],
+.faq-form-box form textarea{
+    position: relative;
+    display: block;   
+    background: #ffffff;
+    width: 100%;
+    height: 55px;
+    border: 1px solid #e5e5e5;
+    color: #848484;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    transition: all 500ms ease;
+    font-family: var(--thm-font);
+}
+.faq-form-box form textarea {
+    height: 160px;
+    padding-top: 21px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+.faq-form-box form input[type="text"]:focus{
+    color: #171717;
+    border-color: var(--thm-primary); 
+}
+.faq-form-box form input[type="email"]:focus{
+    color: #171717;
+    border-color: var(--thm-primary); 
+}
+.faq-form-box form textarea:focus{
+    color: #171717;
+    border-color: var(--thm-primary); 
+}
+
+.faq-form-box form input[type="text"]::-webkit-input-placeholder {
+    color: #585858;
+}
+.faq-form-box form input[type="text"]:-moz-placeholder {
+    color: #585858;
+}
+.faq-form-box form input[type="text"]::-moz-placeholder {
+    color: #585858;
+}
+.faq-form-box form input[type="text"]:-ms-input-placeholder {
+    color: #585858;
+}
+.faq-form-box form input[type="email"]::-webkit-input-placeholder {
+    color: #585858;
+}
+.faq-form-box form input[type="email"]:-moz-placeholder {
+    color: #585858;
+}
+.faq-form-box form input[type="email"]::-moz-placeholder {
+    color: #585858;
+}
+.faq-form-box form input[type="email"]:-ms-input-placeholder {
+    color: #585858;
+}
+.faq-form-box form textarea::-webkit-input-placeholder {
+    color: #585858;
+}
+.faq-form-box form textarea:-moz-placeholder {
+    color: #585858;
+}
+.faq-form-box form textarea::-moz-placeholder {
+    color: #585858;
+}
+.faq-form-box form textarea:-ms-input-placeholder {
+    color: #585858;
+}
+
+
+
+
+

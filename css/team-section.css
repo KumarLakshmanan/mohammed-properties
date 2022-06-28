@@ -1,0 +1,340 @@
+
+/*** 
+=============================================
+    Team Style1 Area Css
+=============================================
+***/
+.team-style1-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 150px 0 110px;
+    z-index: 1;
+}
+.team-style1-area.pdbtm60{
+    padding-bottom: 60px;
+}
+
+.single-team-style1{
+    position: relative;
+    display: block;
+    margin-bottom: 40px;
+}
+.single-team-style1 .img-holder {
+    position: relative;
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 115px;
+}
+.single-team-style1 .img-holder .inner{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: #f8f5ee;
+    border-radius: 20px;
+    z-index: 3;
+}
+.single-team-style1 .img-holder .inner:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1f2021;
+    opacity: 0;
+    border-radius: 3px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    -webkit-transform: perspective(400px) rotateX(-90deg);
+    -ms-transform: perspective(400px) rotateX(-90deg);
+    transform: perspective(400px) rotateX(-90deg);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    border-radius: 6px;
+    z-index: -1;
+}
+.single-team-style1:hover .img-holder .inner:before{
+    opacity: 1;
+    -webkit-transform: perspective(400px) rotateX(0deg);
+    -ms-transform: perspective(400px) rotateX(0deg);
+    transform: perspective(400px) rotateX(0deg);
+}
+.single-team-style1 .img-holder .shape-bg {
+    position: absolute;
+    left: 30px;
+    bottom: 115px;
+    right: 30px;
+    height: 43px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 100%;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    z-index: 3;
+}
+.single-team-style1:hover .img-holder .shape-bg{
+    opacity: 0;
+}
+.single-team-style1 .img-holder .shape-bg-overlay {
+    position: absolute;
+    left: 30px;
+    bottom: 115px;
+    right: 30px;
+    height: 43px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 100%;
+    z-index: 3;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    -webkit-transform: perspective(400px) rotateX(90deg);
+    -ms-transform: perspective(400px) rotateX(90deg);
+    transform: perspective(400px) rotateX(90deg);
+    -webkit-transform-origin: bottom;
+    -ms-transform-origin: bottom;
+    transform-origin: bottom;
+}
+.single-team-style1:hover .img-holder .shape-bg-overlay{
+    opacity: 1;
+    -webkit-transform: perspective(400px) rotateX(0deg);
+    -ms-transform: perspective(400px) rotateX(0deg);
+    transform: perspective(400px) rotateX(0deg);
+}
+.single-team-style1 .img-holder .border-box {
+    position: absolute;
+    left: 30px;
+    bottom: 115px;
+    right: 30px;
+    height: 43px;
+    opacity: 0.10;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 100%;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    z-index: 4;
+}
+.single-team-style1:hover .img-holder .border-box{
+    opacity: 0.80;
+}
+
+.single-team-style1 .img-holder .inner img{
+    width: 100%;
+    filter: grayscale(0%);
+}
+.single-team-style1:hover .img-holder .inner img{
+    transform: scale(1.1) rotate(2deg);
+}
+.single-team-style1 .img-holder .overlay-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    background: #1f2021;
+    opacity: 0;
+    border-radius: 8px;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+}
+.single-team-style1:hover .img-holder .overlay-bg{
+    opacity: 0.60;
+}
+
+
+.single-team-style1 .title-holder {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    min-height: 245px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding: 0 30px 40px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 0px rgba(26, 46, 85, 0.1);
+    z-index: 2;
+}
+.single-team-style1 .title-holder:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background: var(--thm-base);
+    border-radius: 20px;
+    transition: .5s;
+    transform: perspective(400px) scaleY(0);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    z-index: -1;    
+}
+.single-team-style1:hover .title-holder:before{
+    opacity: 1;
+    transform: perspective(400px) scaleX(1.0);
+}
+.single-team-style1 .title-holder .title-inner{
+    position: relative;
+    display: block;
+}
+.single-team-style1 .title-holder .title-inner h3{
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0 0 7px;
+}
+.single-team-style1 .title-holder .title-inner h3 a{
+    color: var(--thm-black);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-team-style1:hover .title-holder .title-inner h3 a{
+    color: #ffffff;
+}
+.single-team-style1 .title-holder .title-inner p{
+    color: #808080;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+    transition: all 200ms linear;
+    transition-delay: 0.1s; 
+}
+.single-team-style1:hover .title-holder .title-inner p{
+    color: #ffffff;
+}
+.single-team-style1 .title-holder .share-icon{
+    position: relative;
+    display: block;
+}
+.single-team-style1 .title-holder .share-icon a{
+    position: relative;
+    display: block;
+    width: 46px;
+    height: 46px;
+    background: var(--thm-base);
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 46px;
+    text-align: center;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    z-index: 3;
+}
+.single-team-style1:hover .title-holder .share-icon a{
+    color: var(--thm-base);
+    background: #ffffff;
+}
+.single-team-style1 .social-link-box{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    -webkit-transform: perspective(400px) rotateX(-90deg);
+    -ms-transform: perspective(400px) rotateX(-90deg);
+    transform: perspective(400px) rotateX(-90deg);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+}
+.single-team-style1:hover .social-link-box{
+    opacity: 1.0;
+    -webkit-transform: perspective(400px) rotateX(0deg);
+    -ms-transform: perspective(400px) rotateX(0deg);
+    transform: perspective(400px) rotateX(0deg);
+}
+.single-team-style1 .social-link-box:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -11px;
+    right: 0;
+    border-top: 12px solid #ffffff;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    text-align: center;
+    margin-right: 20px;
+}
+.team-social-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team-social-link li{
+    position: relative;
+    display: inline-block;
+    float: none;
+    margin: 0 4px;
+}
+.team-social-link li a{
+    position: relative;
+    display: block;
+    width: 46px;
+    height: 46px;
+    background: #ffffff;
+    border-radius: 50%;
+    color: #252628;
+    font-size: 15px;
+    text-align: center;
+    line-height: 46px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.team-social-link li a:hover{
+    color: #ffffff;
+    background: var(--thm-base);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
