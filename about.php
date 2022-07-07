@@ -1,5 +1,6 @@
 <?php
 include_once 'inc/constant.php';
+$footerClass = " gray-bg";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +12,11 @@ include_once 'inc/constant.php';
 </head>
 
 <body>
-
+    <style>
+        .gray-bg {
+            background-color: #f8f5ee;
+        }
+    </style>
     <div class="boxed_wrapper ltr">
         <?php include 'inc/header.php'; ?>
         <section class="breadcrumb-area">
@@ -46,14 +51,13 @@ include_once 'inc/constant.php';
             </div>
             <div class="container">
                 <div class="row">
-                    <!--Start About Style3 Content Box-->
                     <div class="col-xl-6">
                         <div class="about-style3-content-box">
                             <div class="sec-title">
                                 <div class="sub-title">
                                     <p>About Mohammed</p>
                                 </div>
-                                <h2>We are more than  <br> 30 Years<br>Experienced</h2>
+                                <h2>Mohammed is a real estate broker 30 Years <br>Experienced</h2>
                             </div>
                             <div class="text1">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt
@@ -117,72 +121,6 @@ include_once 'inc/constant.php';
                 </div>
             </div>
         </section>
-
-        <!--Start About Style1 Area-->
-        <section class="about-style1-area">
-            <div class="shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-                <img class="float-bob-y" src="images/thm-shape-2.png" alt>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6">
-                        <div class="about-style1__image1">
-                            <div class="shape2 wow zoomIn" data-wow-delay="100ms" data-wow-duration="2500ms">
-                                <img class="rotate-me" src="images/thm-shape-3.png" alt>
-                            </div>
-                            <div class="inner wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-                                <img src="images/about-style1.png" alt>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6">
-                        <div class="about-style1__content">
-                            <div class="p-5"></div>
-                            <div class="sec-title">
-                                <h2>We are the <br> best Property Dealers <br> for 8 Years.</h2>
-                            </div>
-                            <div class="inner-content">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua.enim ad minim veniam quis nostrud.</p>
-
-                                <ul>
-                                    <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
-                                        <div class="icon">
-                                            <span class="flaticon-checked"></span>
-                                        </div>
-                                        <div class="text">
-                                            <h3>Customized Properties</h3>
-                                            <p>Lorem ipsum dolor amet consectetur adipisicing sed do eiusmod tempor incididunt labore.</p>
-                                        </div>
-                                    </li>
-                                    <li class="style2 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-                                        <div class="icon">
-                                            <span class="flaticon-checked"></span>
-                                        </div>
-                                        <div class="text">
-                                            <h3>Afforable Prices</h3>
-                                            <p>Lorem ipsum dolor amet consectetur adipisicing sed do eiusmod tempor incididunt labore.</p>
-                                        </div>
-                                    </li>
-
-                                    <li class="style2 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-                                        <div class="icon">
-                                            <span class="flaticon-checked"></span>
-                                        </div>
-                                        <div class="text">
-                                            <h3>Scheduled Maintenance</h3>
-                                            <p>Lorem ipsum dolor amet consectetur adipisicing sed do eiusmod tempor incididunt labore.</p>
-                                        </div>
-                                    </li>
-                                </ul>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <!--End About Style1 Area-->
 
         <!--Start Fact Counter Area-->
         <section class="fact-counter-area">
@@ -256,7 +194,6 @@ include_once 'inc/constant.php';
                                     </div>
                                 </li>
                                 <!--End Single Fact Counter-->
-
                             </ul>
                         </div>
                     </div>
@@ -264,127 +201,147 @@ include_once 'inc/constant.php';
             </div>
         </section>
         <!--End Fact Counter Area-->
-
-        <!--Start Contact Style1 Area-->
-        <?php include 'inc/contact.php'; ?>
-        <!--End Contact Style1 Area-->
-
-        <!--Start Team Style1 Area-->
-        <section class="team-style1-area">
+        <section class="skill-area py-5">
+            <div class="shape1 wow slideInRight animated" data-wow-delay="400ms" data-wow-duration="6500ms" style="visibility: visible; animation-duration: 6500ms; animation-delay: 400ms; animation-name: slideInRight;">
+                <img src="assets/images/shape/shape-round-2.png" alt="">
+            </div>
             <div class="container">
                 <div class="sec-title text-center">
                     <div class="sub-title">
-                        <p>Smart Team</p>
+                        <p>Our Skills</p>
                     </div>
-                    <h2>We Always Work With<br> Energetic Team</h2>
+                    <h2>Pay for Qualified Traffic<br> &amp; Great Success.</h2>
                 </div>
-                <div class="row">
-                    <!--Start Single Team Style1-->
-                    <div class="col-xl-4 col-lg-4">
-                        <div class="single-team-style1 wow fadeInRight animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <div class="img-holder">
-                                <div class="inner">
-                                    <img src="images/team-v1-1.png" alt>
-                                    <div class="overlay-bg"></div>
-                                    <div class="social-link-box">
-                                        <ul class="team-social-link">
-                                            <li>
-                                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                            </li>
-                                        </ul>
+                <div class="row text-right-rtl">
+
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="skill-content-box">
+                            <h3>Real Estate Awards</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua.enim ad minim veniam quis nostrud.</p>
+                            <p>Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="progress-levels">
+                            <!--Skill Box-->
+                            <div class="progress-box wow animated" style="visibility: visible;">
+                                <div class="inner count-box counted">
+                                    <div class="text">Offices</div>
+                                    <div class="bar">
+                                        <div class="bar-innner">
+                                            <div class="skill-percent">
+                                                <span class="count-text" data-speed="3000" data-stop="95">95</span>
+                                                <span class="percent">%</span>
+                                            </div>
+                                            <div class="bar-fill" data-percent="95" style="width: 95%;"></div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="border-box" style="background-image: url(images/team-border.png);"></div>
-                                <div class="shape-bg" style="background-image: url(images/team-shape.png);"></div>
-                                <div class="shape-bg-overlay" style="background-image: url(images/team-shape-overlay.png);"></div>
-                                <div class="title-holder">
-                                    <div class="title-inner">
-                                        <h3><a href="#">Christian Bale</a></h3>
-                                        <p>CEO & Founder</p>
+                            </div>
+                            <!--Skill Box-->
+                            <div class="progress-box wow animated" style="visibility: visible;">
+                                <div class="inner count-box counted">
+                                    <div class="text">Rentals</div>
+                                    <div class="bar">
+                                        <div class="bar-innner">
+                                            <div class="skill-percent">
+                                                <span class="count-text" data-speed="3000" data-stop="70">70</span>
+                                                <span class="percent">%</span>
+                                            </div>
+                                            <div class="bar-fill" data-percent="70" style="width: 70%;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Skill Box-->
+                            <div class="progress-box wow last-child animated" style="visibility: visible;">
+                                <div class="inner count-box counted">
+                                    <div class="text">Appartments</div>
+                                    <div class="bar">
+                                        <div class="bar-innner">
+                                            <div class="skill-percent">
+                                                <span class="count-text" data-speed="3000" data-stop="90">90</span>
+                                                <span class="percent">%</span>
+                                            </div>
+                                            <div class="bar-fill" data-percent="90" style="width: 90%;"></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!--End Single Team Style1-->
-                    <!--Start Single Team Style1-->
-                    <div class="col-xl-4 col-lg-4">
-                        <div class="single-team-style1 wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <div class="img-holder">
-                                <div class="inner">
-                                    <img src="images/team-v1-2.png" alt>
-                                    <div class="overlay-bg"></div>
-                                    <div class="social-link-box">
-                                        <ul class="team-social-link">
-                                            <li>
-                                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="border-box" style="background-image: url(images/team-border.png);"></div>
-                                <div class="shape-bg" style="background-image: url(images/team-shape.png);"></div>
-                                <div class="shape-bg-overlay" style="background-image: url(images/team-shape-overlay.png);"></div>
-                                <div class="title-holder">
-                                    <div class="title-inner">
-                                        <h3><a href="#">Christian Bale</a></h3>
-                                        <p>CEO & Founder</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Team Style1-->
-                    <!--Start Single Team Style1-->
-                    <div class="col-xl-4 col-lg-4">
-                        <div class="single-team-style1 wow fadeInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <div class="img-holder">
-                                <div class="inner">
-                                    <img src="images/team-v1-3.png" alt>
-                                    <div class="overlay-bg"></div>
-                                    <div class="social-link-box">
-                                        <ul class="team-social-link">
-                                            <li>
-                                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="border-box" style="background-image: url(images/team-border.png);"></div>
-                                <div class="shape-bg" style="background-image: url(images/team-shape.png);"></div>
-                                <div class="shape-bg-overlay" style="background-image: url(images/team-shape-overlay.png);"></div>
-                                <div class="title-holder">
-                                    <div class="title-inner">
-                                        <h3><a href="#">Christian Bale</a></h3>
-                                        <p>CEO & Founder</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Team Style1-->
+
                 </div>
             </div>
         </section>
-        <!--End Team Style1 Area-->
+
+        <!--Start About Style1 Area-->
+        <section class="about-style1-area gray-bg">
+            <div class="p-3"></div>
+            <div class="shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
+                <img class="float-bob-y" src="images/thm-shape-2.png" alt>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="about-style1__image1">
+                            <div class="shape2 wow zoomIn" data-wow-delay="100ms" data-wow-duration="2500ms">
+                                <img class="rotate-me" src="images/thm-shape-3.png" alt>
+                            </div>
+                            <div class="inner wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
+                                <img src="images/about-style1.png" alt>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="about-style1__content">
+                            <div class="p-5"></div>
+                            <div class="sec-title">
+                                <h2>Mohammed the <br> best Property Dealers <br> for 8 Years.</h2>
+                            </div>
+                            <div class="inner-content">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua.enim ad minim veniam quis nostrud.</p>
+
+                                <ul>
+                                    <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
+                                        <div class="icon">
+                                            <span class="flaticon-checked"></span>
+                                        </div>
+                                        <div class="text">
+                                            <h3>Customized Properties</h3>
+                                            <p>Lorem ipsum dolor amet consectetur adipisicing sed do eiusmod tempor incididunt labore.</p>
+                                        </div>
+                                    </li>
+                                    <li class="style2 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                                        <div class="icon">
+                                            <span class="flaticon-checked"></span>
+                                        </div>
+                                        <div class="text">
+                                            <h3>Afforable Prices</h3>
+                                            <p>Lorem ipsum dolor amet consectetur adipisicing sed do eiusmod tempor incididunt labore.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="style2 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                                        <div class="icon">
+                                            <span class="flaticon-checked"></span>
+                                        </div>
+                                        <div class="text">
+                                            <h3>Scheduled Maintenance</h3>
+                                            <p>Lorem ipsum dolor amet consectetur adipisicing sed do eiusmod tempor incididunt labore.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--End About Style1 Area-->
 
 
         <?php include 'inc/footer.php'; ?>

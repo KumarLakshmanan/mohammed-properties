@@ -41,34 +41,14 @@ include_once 'inc/constant.php';
 
 
         <!--Start Google map area-->
-        <section class="google-map-area">
-            <div class="container-fluid">
-                <div class="contact-page-map-outer">
-                    <!--Map Canvas-->
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4013472.064197244!2d76.04391597101748!3d10.780160084333655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c582b1189633%3A0x559475cc463361f0!2sTamil%20Nadu!5e0!3m2!1sen!2sin!4v1656381647866!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
-        </section>
+        <div class="p-5"></div>
+        <div class="p-5"></div>
         <!--Start Google map area-->
 
         <!--Start Contact Info Area-->
         <section class="contact-info-area">
             <div class="container">
-                <div class="row">
-                    <!--Start Single Contact Info Box-->
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <div class="single-contact-info-box">
-                            <div class="icon">
-                                <div class="shape-bg"></div>
-                                <span class="icon-placeholder"></span>
-                            </div>
-                            <div class="text">
-                                <h4><a href="#">Office Location</a></h4>
-                                <p><?= $w3Address?> </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Contact Info Box-->
+                <div class="row justify-content-center">
                     <!--Start Single Contact Info Box-->
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="single-contact-info-box">
@@ -78,7 +58,7 @@ include_once 'inc/constant.php';
                             </div>
                             <div class="text">
                                 <h4><a href="#">Company Email</a></h4>
-                                <p class="text1"><a href="mailto:<?= $w3Email ?>"><?= $w3Email?></a></p>
+                                <p class="text1"><a href="mailto:<?= $w3Email ?>"><?= $w3Email ?></a></p>
                             </div>
                         </div>
                     </div>
@@ -114,7 +94,7 @@ include_once 'inc/constant.php';
                     <div class="col-xl-12">
                         <div class="contact-style1_form">
                             <div class="contact-form">
-                                <form id="contact-form" name="contact_form" class="default-form2" action="assets/inc/sendmail.php" method="post">
+                                <form id="contact-form" name="contact_form" class="default-form2" action="/sendmail.php" method="post">
                                     <div class="row">
                                         <div class="col-xl-6">
                                             <div class="input-box">
@@ -130,12 +110,12 @@ include_once 'inc/constant.php';
                                     <div class="row">
                                         <div class="col-xl-6">
                                             <div class="input-box">
-                                                <input type="text" name="form_phone" value="" placeholder="Phone :">
+                                                <input type="text" name="form_phone" value="" placeholder="Phone :" required="">
                                             </div>
                                         </div>
                                         <div class="col-xl-6">
                                             <div class="input-box">
-                                                <input type="text" name="form_subject" value="" placeholder="Subject :">
+                                                <input type="text" name="form_subject" value="" placeholder="Subject :" required="">
                                             </div>
                                         </div>
                                     </div>
@@ -144,8 +124,7 @@ include_once 'inc/constant.php';
                                             <div class="input-box two">
                                                 <textarea name="form_message" placeholder="Enter your message..." required=""></textarea>
                                             </div>
-                                            <div class="button-box">
-                                                <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
+                                            <div class="button-box" style="display: block">
                                                 <button class="btn-one" type="submit" data-loading-text="Please wait...">
                                                     <span class="txt">Submit Now</span>
                                                 </button>
@@ -161,8 +140,6 @@ include_once 'inc/constant.php';
                 </div>
             </div>
         </section>
-        <!--End Team Style1 Area-->
-
 
         <?php include 'inc/footer.php'; ?>
 

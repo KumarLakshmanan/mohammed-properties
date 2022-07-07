@@ -1,4 +1,4 @@
-<footer class="footer-area <?= $footerClass ?? ""?>">
+<footer class="footer-area <?= $footerClass ?? "" ?>">
     <!--Start Footer-->
     <div class="footer">
         <div class="footer-bg" style="background-image: url(images/footer-bg.png);"></div>
@@ -10,7 +10,7 @@
                     <div class="single-footer-widget marbtm50">
                         <div class="our-company-info">
                             <div class="footer-logo">
-                                <a href="#"><img style="height:75px"  src="images/footer-logo.png" alt></a>
+                                <a href="#"><img style="height:75px" src="images/footer-logo.png" alt></a>
                             </div>
                             <div class="text-box">
                                 <p><?php echo $w3LongDescription ?></p>
@@ -23,20 +23,10 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.3s">
                     <div class="single-footer-widget margin__top marbtm50">
                         <div class="title">
-                            <h3>Address</h3>
+                            <h3>Contact Us</h3>
                         </div>
                         <div class="footer-widget-contact-info">
                             <ul>
-                                <li>
-                                    <div class="inner">
-                                        <div class="icon mapmarker">
-                                            <span class="flaticon-placeholder"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p><?= $w3Address ?> </p>
-                                        </div>
-                                    </div>
-                                </li>
                                 <li>
                                     <div class="inner">
                                         <div class="icon">
@@ -59,6 +49,15 @@
                                 </li>
                             </ul>
                         </div>
+                        <div class="p-2"></div>
+                        <div class="footer-social-link">
+                            <ul class="clearfix">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <!--End single footer widget-->
@@ -74,6 +73,7 @@
                                 <li><a href="<?= $webBaseUrl ?>services.php">Services</a></li>
                                 <li><a href="<?= $webBaseUrl ?>contact.php">Contact Us</a></li>
                                 <li><a href="<?= $webBaseUrl ?>projects.php">Out Projects</a></li>
+                                <li><a href="<?= $webBaseUrl ?>faq.php">FAQ</a></li>
                             </ul>
                         </div>
                     </div>
@@ -82,25 +82,16 @@
         </div>
     </div>
     <!--End Footer-->
-
-
     <div class="footer-bottom">
         <div class="container">
             <div class="bottom-inner">
                 <div class="copyright">
-                    <p>Copyright ©<a href="#"> 2021 <?= $w3Name ?>.</a> All Rights Reserved.</p>
-                </div>
-                <div class="footer-social-link">
-                    <ul class="clearfix">
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                    </ul>
+                    <p>Copyright ©2022<a href="#">  <?= $w3Name ?>.</a> All Rights Reserved.</p>
                 </div>
                 <div class="footer-menu">
                     <ul class="footer-nav">
                         <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
                     </ul>
                 </div>
             </div>
