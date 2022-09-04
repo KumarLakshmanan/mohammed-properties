@@ -1,5 +1,3 @@
-
-
 /*** 
 =============================================
     Footer area style
@@ -12,6 +10,9 @@
 }
 .footer-area.gray-bg{
     background-color: #f8f5ee;    
+}
+.footer-area.red-bg{
+    background-color: #ed202b;    
 }
 
 .footer {

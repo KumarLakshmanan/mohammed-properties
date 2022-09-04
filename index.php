@@ -14,8 +14,6 @@ include_once 'inc/constant.php';
 
     <div class="boxed_wrapper ltr">
         <?php include 'inc/header.php'; ?>
-
-
         <section id="banner" class="main-slider style3">
             <div class="slider3-round-box wow slideInRight" data-wow-delay="500ms" data-wow-duration="3500ms">
                 <img src="assets/images/shape/shape-round-8.png" alt="">
@@ -23,12 +21,6 @@ include_once 'inc/constant.php';
             <div class="slider-box">
                 <div class="banner-carousel owl-theme owl-carousel">
                     <div class="slide">
-                        <div class="hand-shape">
-                            <img src="assets/images/shape/slide-hand-1.png" alt="">
-                        </div>
-                        <div class="hand-shape-2">
-                            <img src="assets/images/shape/slide-hand-2.png" alt="">
-                        </div>
                         <div class="auto-container">
                             <div class="content">
                                 <div class="big-title">
@@ -55,12 +47,6 @@ include_once 'inc/constant.php';
                         </div>
                     </div>
                     <div class="slide">
-                        <div class="hand-shape">
-                            <img src="assets/images/shape/slide-hand-1.png" alt="">
-                        </div>
-                        <div class="hand-shape-2">
-                            <img src="assets/images/shape/slide-hand-2.png" alt="">
-                        </div>
                         <div class="auto-container">
                             <div class="content">
                                 <div class="big-title">
@@ -70,7 +56,7 @@ include_once 'inc/constant.php';
                                     <p>Amet consectetur adipisicing elit sed do.</p>
                                 </div>
                                 <div class="btns-box">
-                                    <a class="btn-one" href="contact.html">
+                                    <a class="btn-one" href="contact.php">
                                         <span class="txt">Contact Us</span>
                                     </a>
                                 </div>

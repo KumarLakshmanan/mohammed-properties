@@ -505,12 +505,12 @@ Main Slider style3 style
 .main-slider.style3 .slide3-right-image {
   position: absolute;
   bottom: -200px;
-  right: -200px;
+  right: -100px;
   opacity: 0;
   z-index: 1;
-  -webkit-transform: perspective(400px) translateX(100%);
-  -ms-transform: perspective(400px) translateX(100%);
-  transform: perspective(400px) translateX(100%);
+  -webkit-transform: perspective(400px) translateX(100%) scale(1.1);
+  -ms-transform: perspective(400px) translateX(100%) scale(1.1);
+  transform: perspective(400px) translateX(100%) scale(1.1);
   -webkit-transform-origin: bottom;
   -ms-transform-origin: bottom;
   transform-origin: bottom;
@@ -522,9 +522,9 @@ Main Slider style3 style
 }
 .main-slider.style3 .active .slide3-right-image {
   opacity: 1;
-  -webkit-transform: perspective(400px) translateX(0px);
-  -ms-transform: perspective(400px) translateX(0px);
-  transform: perspective(400px) translateX(0px);
+  -webkit-transform: perspective(400px) translateX(0px) scale(1.1);
+  -ms-transform: perspective(400px) translateX(0px) scale(1.1);
+  transform: perspective(400px) translateX(0px) scale(1.1);
   -webkit-transition-delay: 2000ms;
   -moz-transition-delay: 2000ms;
   -ms-transition-delay: 2000ms;

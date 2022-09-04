@@ -31,7 +31,7 @@ $footerClass = " gray-bg";
                             </div>
                             <div class="breadcrumb-menu">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="index.php">Home</a></li>
                                     <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
                                     <li class="active">FAQ</li>
                                 </ul>

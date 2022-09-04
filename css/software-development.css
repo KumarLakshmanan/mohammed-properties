@@ -1,0 +1,306 @@
+.sec-title p {
+  font-family: Open\Sans, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 16px;
+  color: #001033;
+  margin-top: 0;
+  padding-left: 60px;
+}
+.sec-title p,
+.sec-title p span {
+  position: relative;
+}
+.sec-title p span:before {
+  content: "";
+  height: 2px;
+  width: 40px;
+  position: absolute;
+  left: -50px;
+  background-color: #001033;
+  top: 9px;
+}
+.sec-title h2,
+.sec-title h3 {
+  font-family: Gilroy, sans-serif;
+  font-weight: 900;
+  color: #001033;
+}
+@media screen and (min-width: 320px) {
+  .sec-title h2,
+  .sec-title h3 {
+    font-size: calc(19.2px + 1.5vw);
+  }
+}
+@media screen and (min-width: 1920px) {
+  .sec-title h2,
+  .sec-title h3 {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .sec-title h2,
+  .sec-title h3 {
+    font-size: 28px;
+  }
+  .sec-title h2 br,
+  .sec-title h3 br {
+    display: none;
+  }
+}
+.sec-title h2 span,
+.sec-title h3 span {
+  position: relative;
+}
+.sec-title h2 span:after,
+.sec-title h3 span:after {
+  content: "";
+  height: 16px;
+  width: calc(100% + 10px);
+  position: absolute;
+  bottom: 19%;
+  left: -5px;
+  background-color: rgba(0, 0, 0, 0.06);
+  z-index: -1;
+}
+.cmr-app-services {
+  padding: 50px 0 70px;
+  background: linear-gradient(
+    180deg,
+    #fff 0,
+    #fff 30%,
+    #f2f3f7 0,
+    #f2f3f7 70%,
+    hsla(0, 0%, 100%, 0) 0
+  );
+}
+@media screen and (max-width: 600px) {
+  .cmr-app-services {
+    padding: 10px 0 30px;
+  }
+}
+.cmr-app-services .service-alt:nth-child(2n) {
+  margin-top: 30px;
+}
+@media screen and (max-width: 767px) {
+  .cmr-app-services .service-alt:nth-child(2n) {
+    margin-top: 0;
+  }
+}
+.cmr-app-services .service-alt .app-plate {
+  height: 232px;
+  border-radius: 10px;
+  padding: 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  cursor: pointer;
+  box-shadow: 0 3px 26px rgba(0, 0, 0, 0.04);
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 767px) {
+  .cmr-app-services .service-alt .app-plate {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cmr-app-services .service-alt .app-plate {
+    height: auto;
+    position: relative;
+    flex-wrap: nowrap;
+    padding: 20px 22px 56px;
+  }
+  .cmr-app-services .service-alt .app-plate > div {
+    width: 100%;
+    z-index: 1;
+  }
+  .cmr-app-services .service-alt .app-plate > div p {
+    width: 100%;
+  }
+  .cmr-app-services .service-alt .app-plate > div + div {
+    margin-top: 10px;
+    width: 50%;
+    text-align: center;
+  }
+  .cmr-app-services .service-alt .app-plate > div + div .icon_box {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .cmr-app-services
+    .service-alt
+    .app-plate
+    > div
+    + div
+    .icon_box
+    .icon_overlay {
+    z-index: 0;
+    left: -20px;
+  }
+  .cmr-app-services .service-alt .app-plate > div + div .link-btn {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+  }
+}
+.cmr-app-services .service-alt .app-plate:after {
+  content: "";
+  width: 150px;
+  height: 9px;
+  border-radius: 5px 5px 0 0;
+  background: #3356af;
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+}
+@media screen and (max-width: 600px) {
+  .cmr-app-services .service-alt .app-plate:after {
+    left: 25px;
+  }
+}
+.cmr-app-services .service-alt .app-plate:hover .link-btn {
+  color: #f16122;
+}
+.cmr-app-services .service-alt .app-plate:hover .link-btn i {
+  left: 10px;
+  transition: all 0.5s;
+}
+.cmr-app-services .service-alt .app-plate h5 {
+  font-family: Open\Sans, sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: left;
+  color: #1d1e31;
+}
+@media screen and (max-width: 600px) {
+  .cmr-app-services .service-alt .app-plate h5 br {
+    display: none;
+  }
+}
+.cmr-app-services .service-alt .app-plate p {
+  width: 227px;
+  height: 96px;
+  font-family: Open\Sans, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #000;
+  margin: 0;
+  max-height: 103px;
+  overflow: hidden;
+}
+@media screen and (max-width: 600px) {
+  .cmr-app-services .service-alt .app-plate p {
+    margin-bottom: 20px;
+  }
+}
+
+.icon_box {
+  margin-bottom: 50px;
+  position: relative;
+  padding-left: 45px;
+  padding-top: 15px;
+}
+.icon_box img {
+  position: relative;
+  z-index: 99;
+}
+.icon_overlay {
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  z-index: 9;
+}
+.icon_overlay img {
+  -webkit-animation: spin 10s linear infinite;
+  -moz-animation: spin 10s linear infinite;
+  animation: spin 10s linear infinite;
+}
+
+
+.cmr-what-we .container > .row {
+  margin-bottom: 1.5rem !important;
+}
+.cmr-what-we .provide-plate {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 600px) {
+  .cmr-what-we .provide-plate {
+    margin: 10px 0;
+  }
+}
+.cmr-what-we .provide-plate .left-tags {
+  display: flex;
+  align-items: flex-start;
+}
+@media screen and (max-width: 600px) {
+  .cmr-what-we .provide-plate .left-tags {
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .cmr-what-we .provide-plate .left-tags span {
+    display: inline-block;
+    max-width: max-content;
+    width: auto;
+  }
+}
+.cmr-what-we .provide-plate .step-number-custom {
+  font-family: Gilroy, sans-serif;
+  font-weight: 900;
+  font-size: 42px;
+  text-align: left;
+  color: #202133;
+  margin: 0 15px 0 0;
+  line-height: 1.2;
+  min-width: 50px;
+}
+@media screen and (max-width: 600px) {
+  .cmr-what-we .provide-plate .step-number-custom {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+    font-size: 20px;
+    min-width: 35px;
+  }
+}
+.cmr-what-we .provide-plate .step-label-custom {
+  font-family: Open\Sans, sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.3;
+  text-align: left;
+  color: #202133;
+  max-width: 250px;
+}
+@media screen and (max-width: 767px) {
+  .cmr-what-we .provide-plate .step-label-custom {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cmr-what-we .provide-plate .step-label-custom {
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+.cmr-what-we .provide-plate p {
+  font-family: Open\Sans, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: left;
+  color: #000;
+}
+@media screen and (max-width: 600px) {
+  .cmr-what-we .provide-plate p {
+    font-size: 18px;
+  }
+}
+.cmr-what-we .provide-plate:last-child p.why-choose-description {
+  margin-bottom: 0;
+}

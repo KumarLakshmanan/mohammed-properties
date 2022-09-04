@@ -27,11 +27,11 @@ $footerClass = " gray-bg";
                     <div class="col-xl-12">
                         <div class="inner-content">
                             <div class="title">
-                                <h2>About Roofplan</h2>
+                                <h2>About</h2>
                             </div>
                             <div class="breadcrumb-menu">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="index.php">Home</a></li>
                                     <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
                                     <li class="active">About Us</li>
                                 </ul>

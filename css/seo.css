@@ -1,0 +1,150 @@
+.ppc_listCnt {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.ppc_listCnt > li {
+  position: relative;
+  padding-left: 60px;
+  margin: 20px 0;
+  overflow: hidden;
+  padding-bottom: 20px;
+  min-height: 170px;
+}
+.ppc_listCnt > li:before {
+  position: absolute;
+  left: 20px;
+  top: 60px;
+  content: "";
+  width: 1px;
+  bottom: 0;
+  border-left: 2px dashed #999;
+}
+.ppc_listCnt > li span {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: #ed202b;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ppc_listCnt > li h5 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.client-stories .section-title {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.client-stories .section-title h1 {
+  font-size: 58px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+.client-stories .section-title h1 span {
+  display: block;
+}
+.client-stories .fixed-height {
+  height: 460px;
+}
+.client-stories .marketing-stories,
+.client-stories .rebranding-stories {
+  position: relative;
+  display: flex;
+  align-content: center;
+  padding: 120px 0;
+}
+.client-stories .v-line {
+  position: absolute;
+  z-index: 1;
+  top: -20px;
+  left: 50%;
+  width: 1px;
+  height: 40px;
+  background: #ebebeb;
+}
+.client-stories .section-heading .h-text {
+  font-family: Gobold;
+  line-height: 1.4;
+  text-transform: uppercase;
+  margin: 0 0 15px 0;
+}
+.client-stories .client-cards {
+  position: relative;
+  margin: 0;
+}
+.client-stories .client-card * {
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -ms-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+.client-stories .client-card {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: #fff;
+  min-height: 250px;
+  color: #000;
+  border-radius: 4px;
+  transition: all 0.1s ease;
+  text-align: center;
+  padding: 30px;
+  position: relative;
+}
+.client-stories .client-card:hover {
+  transform: translateY(-20px) scale(1.1);
+  transition: all 0.1s ease;
+  z-index: 9999;
+  -webkit-box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.1);
+}
+.client-stories .client-card .client-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+.client-stories .client-card:hover .client-logo,
+.client-stories .client-card:hover .client-logo img,
+.client-stories .client-card:hover p {
+  display: none;
+}
+.client-stories .client-card p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #727272;
+  margin-bottom: 5px;
+}
+.client-stories .client-card .hover-content {
+  display: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.client-stories .client-card:hover .hover-content,
+.client-stories .client-card:hover .hover-content p {
+  display: block;
+  visibility: inherit;
+}
+.client-stories .client-card:hover p {
+  color: #202a5c;
+}
+.client-stories .client-card .hover-content p {
+  font-size: 13px;
+  color: #202a5c;
+  margin-bottom: 15px;
+  line-height: 1.25;
+}
+.client-stories .client-card .hover-content p b {
+  display: block;
+}
+.bg-green {
+  background-color: #ed202b;
+}
